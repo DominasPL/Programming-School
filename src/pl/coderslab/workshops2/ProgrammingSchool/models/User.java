@@ -113,7 +113,7 @@ public class User {
 
     }
 
-    public static ArrayList<Integer> loadUsersIDs (Connection conn) throws SQLException {  // Pobranie wszystkich id uzytkownikow. Używane w klasie Solution w funkcji ???
+    public static ArrayList<Integer> loadUsersIDs (Connection conn) throws SQLException {  // Pobranie wszystkich id uzytkownikow. Używane w klasie Solution w funkcji checkUserID
 
         ArrayList<Integer> usersIDs = new ArrayList<>();
         String query = "SELECT id FROM users";

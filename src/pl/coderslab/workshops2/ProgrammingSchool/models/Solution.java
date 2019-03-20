@@ -118,10 +118,6 @@ public class Solution {
         try (Connection conn = ConnectionManager.getConnection()) {
             ArrayList<Integer> usersIDs = User.loadUsersIDs(conn);
             int i = 1;
-            for (Integer a : usersIDs) {
-                System.out.println(i + ". " + a);
-                i++;
-            }
 
             if (!usersIDs.contains(user_id)) { // Jeżeli podana wartość  jest nieprawidłowa to pobieram wartość od uzytkownika
 
@@ -201,7 +197,7 @@ public class Solution {
 
     }
 
-    public static ArrayList<Solution> loadAllSolutionsByUserId(Connection conn, int id) throws SQLException {
+    public static ArrayList<Solution> loadAllSolutionsByUserId(Connection conn, int id) throws SQLException { // Wczytanie wszystkich rozwiazan danego uzytkownika
         ArrayList<Solution> solutions = new ArrayList<>();
         String query = "SELECT * FROM solution WHERE user_id = ?";
         PreparedStatement preparedStatement = conn.prepareStatement(query);
@@ -226,7 +222,7 @@ public class Solution {
 
     }
 
-    public static ArrayList<Solution> loadAllSortedExerciseSolutions(Connection conn, int id) throws SQLException {
+    public static ArrayList<Solution> loadAllSortedExerciseSolutions(Connection conn, int id) throws SQLException { // Wczytanie wszystkich rozwiazan danego zadania (posortowane)
         ArrayList<Solution> solutions = new ArrayList<>();
         String query = "SELECT * FROM solution WHERE exercise_id = ? ORDER BY created DESC;";
         PreparedStatement preparedStatement = conn.prepareStatement(query);
@@ -250,8 +246,6 @@ public class Solution {
         return solutions;
 
     }
-
-
 
 
 

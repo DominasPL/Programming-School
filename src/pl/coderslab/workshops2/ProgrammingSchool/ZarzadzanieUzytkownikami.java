@@ -9,14 +9,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class App {
+public class ZarzadzanieUzytkownikami {
 
     public static void main(String[] args) {
 
         try(Connection conn = ConnectionManager.getConnection()) {
 
             while (true) {
-                System.out.println("############### LISTA UŻYTKOWNIKÓW ###############");
                 printUsers(conn);
 
                 System.out.println();
@@ -60,8 +59,9 @@ public class App {
 
     }
 
-    public static void printUsers(Connection conn) throws SQLException {
+    public static void printUsers(Connection conn) throws SQLException { //Wyswietlanie uzytkownikow
 
+        System.out.println("############### LISTA UŻYTKOWNIKÓW ###############");
         ArrayList<User> allUsers = User.loadAllUsers(conn);
 
         int i = 1;
@@ -70,9 +70,11 @@ public class App {
             System.out.println(i + ". " + "ID użytkownika: " + user.getId() + " \n    Nazwa użytkownika: " + user.getUsername());
             i++;
         }
+
+        System.out.println();
     }
 
-    public static void addUser(Connection conn) throws SQLException {
+    public static void addUser(Connection conn) throws SQLException { // Dodawanie uzytkownika
 
         Scanner scanner = new Scanner(System.in);
 
@@ -102,11 +104,11 @@ public class App {
 
     }
 
-    public static void editUser(Connection conn) throws SQLException {
+    public static void editUser(Connection conn) throws SQLException { //Edycja uzytkownika
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Podaj id użytkownika do edycji: ");
+        System.out.print("Podaj id użytkownika do edycji: ");
 
         while(!scanner.hasNextInt()) {
             scanner.nextLine();
@@ -148,7 +150,7 @@ public class App {
 
     }
 
-    public static void deleteUser(Connection conn) throws SQLException {
+    public static void deleteUser(Connection conn) throws SQLException { //todo zrobić usuwanie najpierw z solution
 
         Scanner scanner = new Scanner(System.in);
 
@@ -168,26 +170,6 @@ public class App {
         }
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

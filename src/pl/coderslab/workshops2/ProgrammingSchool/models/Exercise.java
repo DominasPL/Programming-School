@@ -88,7 +88,7 @@ public class Exercise {
 
     }
 
-    public static ArrayList<Integer> loadExercisesIDs (Connection conn) throws SQLException {  // Pobranie wszystkich id zadań. Używane w klasie Solution w funkcji ???
+    public static ArrayList<Integer> loadExercisesIDs (Connection conn) throws SQLException {  // Pobranie wszystkich id zadań. Używane w klasie Solution w funkcji checkExerciseID
 
         ArrayList<Integer> exercisesIDs = new ArrayList<>();
         String query = "SELECT id FROM exercise";
