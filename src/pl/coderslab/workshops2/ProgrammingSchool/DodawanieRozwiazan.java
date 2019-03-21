@@ -15,7 +15,7 @@ import java.util.Scanner;
 
 public class DodawanieRozwiazan {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //todo ZROBIC pobieranie user_id z parametorw funcki main, a nie na sztywno tak jak jest teraz i przekazac ten parametr do funkcji addSolution
 
         try(Connection conn = ConnectionManager.getConnection()) {
 

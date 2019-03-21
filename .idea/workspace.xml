@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e39ecebb-a6f5-41e4-8d49-8a9119e66e44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Warsztaty2/pl/coderslab/workshops2/ProgrammingSchool/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Warsztaty2/pl/coderslab/workshops2/ProgrammingSchool/models/UserGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Warsztaty2/pl/coderslab/workshops2/ProgrammingSchool/models/UserGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/ZarzadzanieUzytkownikami.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Warsztaty2/pl/coderslab/workshops2/ProgrammingSchool/models/Exercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Warsztaty2/pl/coderslab/workshops2/ProgrammingSchool/models/Exercise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Warsztaty2/pl/coderslab/workshops2/ProgrammingSchool/models/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Warsztaty2/pl/coderslab/workshops2/ProgrammingSchool/models/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/DodawanieRozwiazan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/DodawanieRozwiazan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/Exercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/UserGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/UserGroup.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,34 +32,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/ZarzadzanieUzytkownikami.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="173" selection-start-line="173" selection-end-line="173" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/PrzypisywanieZadan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="117" column="25" lean-forward="true" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/DodawanieRozwiazan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="450">
+              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/Exercise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,10 +82,10 @@
         <option value="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/ZarzadzanieZadaniami.java" />
         <option value="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/Solution.java" />
         <option value="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/User.java" />
-        <option value="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/Exercise.java" />
         <option value="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/PrzypisywanieZadan.java" />
-        <option value="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/DodawanieRozwiazan.java" />
         <option value="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/ZarzadzanieUzytkownikami.java" />
+        <option value="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/Exercise.java" />
+        <option value="$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/DodawanieRozwiazan.java" />
       </list>
     </option>
   </component>
@@ -122,7 +110,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,18 +154,29 @@
             </path>
             <path>
               <item name="workshop2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Warsztaty2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
+              <item name="workshops2" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workshop2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553090533262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553168462367" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../WRO_JEE_S_08_Podstawy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -199,7 +197,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrzypisywanieZadan">
+  <component name="RunManager" selected="Application.DodawanieRozwiazan">
+    <configuration name="DodawanieRozwiazan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.coderslab.workshops2.ProgrammingSchool.DodawanieRozwiazan" />
+      <module name="Warsztaty2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.coderslab.workshops2.ProgrammingSchool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrzypisywanieZadan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.coderslab.workshops2.ProgrammingSchool.PrzypisywanieZadan" />
       <module name="Warsztaty2" />
@@ -254,6 +265,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DodawanieRozwiazan" />
         <item itemvalue="Application.PrzypisywanieZadan" />
         <item itemvalue="Application.ZarzadzanieGrupami" />
         <item itemvalue="Application.ZarzadzanieUzytkownikami" />
@@ -277,12 +289,14 @@
       <workItem from="1552291628640" duration="753000" />
       <workItem from="1552925058200" duration="18567000" />
       <workItem from="1553015161086" duration="18054000" />
-      <workItem from="1553080493552" duration="9746000" />
+      <workItem from="1553080493552" duration="9793000" />
+      <workItem from="1553109772945" duration="3081000" />
+      <workItem from="1553165696041" duration="2559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65307000" />
+    <option name="totallyTimeSpent" value="70994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,7 +310,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26674044" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2733813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -417,16 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/Exercise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="81" column="70" lean-forward="true" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2235">
@@ -447,10 +451,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/ZarzadzanieUzytkownikami.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/models/Exercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/PrzypisywanieZadan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="117" column="25" lean-forward="true" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
+        <state relative-caret-position="194">
+          <caret line="115" column="3" lean-forward="true" selection-start-line="115" selection-start-column="3" selection-end-line="133" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -459,15 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/DodawanieRozwiazan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/coderslab/workshops2/ProgrammingSchool/ZarzadzanieUzytkownikami.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        <state relative-caret-position="450">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
