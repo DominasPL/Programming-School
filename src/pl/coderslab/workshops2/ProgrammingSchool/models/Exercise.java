@@ -126,6 +126,25 @@ public class Exercise {
 
     }
 
+    public static ArrayList<Integer> loadExercisesIdsWithUserSolution(Connection conn, int id) throws SQLException { //Pobranie wszystkich zadan do których użytkownik nie dodał rozwiązania
+
+        ArrayList<Integer> exercises = new ArrayList<>();
+        String query = "SELECT exercise_id FROM solution\n" +
+                "WHERE user_id = ?\n" +
+                "GROUP BY exercise_id;";
+        PreparedStatement preparedStatement = conn.prepareStatement(query);
+        preparedStatement.setInt(1, id);
+
+        ResultSet resultSet = preparedStatement.executeQuery();
+
+        while (resultSet.next()) {
+            exercises.add(resultSet.getInt("exercise_id"));
+        }
+
+        return exercises;
+
+    }
+
 
 
     //////////////////////////////////////////////////////// Getters, Setters and toString
